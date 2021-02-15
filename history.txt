@@ -1,3 +1,23 @@
+1. クローン
 git clone https://github.com/Yuta1004/Git20210215.git
-git branch
-git checkout -b SelfIntro***
+
+(git branch)
+
+2. developブランチの作成
+git checkout -b develop
+git pull origin develop
+
+3. 自己紹介ファイルの追加とコミット
+git checkout -b <branch>
+git add <file>
+git commit
+git push origin <branch>
+
+4. PullRequestの発行(※Github上での操作)
+PullRequest発行
+PullRequest承認→マージ
+
+5. 後片付け
+git checkout develop
+git pull origin develop
+git branch -d <branch>
